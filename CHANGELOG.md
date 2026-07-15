@@ -6,6 +6,46 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 See [RELEASING.md](RELEASING.md) for how releases are cut.
 
+## [3.0.0](https://github.com/Zaimwa9/kyde/compare/kyde-v2.1.0...kyde-v3.0.0) (2026-07-15)
+
+
+### ⚠ BREAKING CHANGES
+
+* cargo workspace and UX improvements ([#23](https://github.com/Zaimwa9/kyde/issues/23))
+* terminal
+
+### Features
+
+* Add collapse feature to Git history ([1ecb421](https://github.com/Zaimwa9/kyde/commit/1ecb421fe6f8c54943915675564e5ebdd8cd2471))
+* add commit and push tabs ([01202c4](https://github.com/Zaimwa9/kyde/commit/01202c4aff68ed1230984cc5880b3cbbd1e924e7))
+* cargo workspace and UX improvements ([#23](https://github.com/Zaimwa9/kyde/issues/23)) ([dafd38b](https://github.com/Zaimwa9/kyde/commit/dafd38b18b5894a3c1a2dd5e85e0b94f82a4253a))
+* git history ([0b8d7b1](https://github.com/Zaimwa9/kyde/commit/0b8d7b1ab5326a4c2ab35eb4596d44d82ffd4e8e))
+* Git History ([f691824](https://github.com/Zaimwa9/kyde/commit/f691824db4d326ca992f6d54952a0938ffbf8de3))
+* Intel Mac Support ([f5d895d](https://github.com/Zaimwa9/kyde/commit/f5d895d7ae769d1afa4903657b9d5acd56866fc4))
+* Intel Mac Support ([4973472](https://github.com/Zaimwa9/kyde/commit/4973472a8e118ac749e43813942c566391ec2e5a))
+* jump between changes ([c7c8f48](https://github.com/Zaimwa9/kyde/commit/c7c8f482fc07908f3875088c02446470c66bf22e))
+* Kyde - A fast native commit and diff code editor ([28038bc](https://github.com/Zaimwa9/kyde/commit/28038bccef15f3d81da4b5e18e26d5c8f5fa2e89))
+* partial commits — stage selected hunks from the diff gutter ([#33](https://github.com/Zaimwa9/kyde/issues/33)) ([ed00c1a](https://github.com/Zaimwa9/kyde/commit/ed00c1a27d886772875b335b53e45255599e644e))
+* pull and fetch ([5f91eab](https://github.com/Zaimwa9/kyde/commit/5f91eabb22675386e5d35102600a86c34c89a1dd))
+* release signing secret names and notarize via Apple ID ([9b402ee](https://github.com/Zaimwa9/kyde/commit/9b402eee75c4e782637a8ee49cbc4dd0028628c7))
+* self-update ([f394b5a](https://github.com/Zaimwa9/kyde/commit/f394b5ade94cb23829a47bbc7de0bc4aa7b3f078))
+* self-update ([35d84e3](https://github.com/Zaimwa9/kyde/commit/35d84e30f738020dba436e104e117ad27370b553))
+* show +/− line stats — change-set total on the tree root, per-file in the diff pill ([#36](https://github.com/Zaimwa9/kyde/issues/36)) ([9a2d84b](https://github.com/Zaimwa9/kyde/commit/9a2d84bef075722c380d2d50cdc56bdb123a367e))
+* terminal ([ddffbf5](https://github.com/Zaimwa9/kyde/commit/ddffbf5b61d2857ce4c20cf69bf22f723e9c3de1))
+* terminal full screen ([1fc849a](https://github.com/Zaimwa9/kyde/commit/1fc849adf008b0493198cea3323208328b86d2a9))
+* worktree switcher — jump between worktrees without leaving the app ([#37](https://github.com/Zaimwa9/kyde/issues/37)) ([bcd3222](https://github.com/Zaimwa9/kyde/commit/bcd3222aaea425d36ce4efa117f0936f2dd111cf))
+
+
+### Bug Fixes
+
+* auto recover git pushes ([945d3eb](https://github.com/Zaimwa9/kyde/commit/945d3eb85200f4a7f7dd20f6552b400bde67356d))
+* fmt ([47b61c7](https://github.com/Zaimwa9/kyde/commit/47b61c7e46b51924be83f04a48b11dc97a3afc37))
+* new branch upstrea ([c38f729](https://github.com/Zaimwa9/kyde/commit/c38f7294e7609207550c0e165d1d0282bc39aa9c))
+* new branch upstrea ([53b84d6](https://github.com/Zaimwa9/kyde/commit/53b84d653b6c77e2158ccace532e4d31a6303c14))
+* prevent UI freeze on Find in Files in large repos ([07d1528](https://github.com/Zaimwa9/kyde/commit/07d1528d38f7691962439af81821cc7ce917beef))
+* reliability, async git IO, god-struct decomposition, and CI/supply-chain fixes ([#31](https://github.com/Zaimwa9/kyde/issues/31)) ([060dcf9](https://github.com/Zaimwa9/kyde/commit/060dcf96dbb51b5ccfa14c8817676394f4e3c5ea))
+* unblock release-please on the Cargo workspace refactor ([416eb0f](https://github.com/Zaimwa9/kyde/commit/416eb0fe8af48b424accc4431a9e61c7cc05d4fe))
+
 ## [2.1.0](https://github.com/kyle-ssg/kyde/compare/kyde-v2.0.1...kyde-v2.1.0) (2026-07-14)
 
 
